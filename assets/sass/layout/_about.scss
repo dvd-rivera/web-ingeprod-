@@ -1,0 +1,24 @@
+.about-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-img-1 {
+    background-image: url(../img/about-img-1.jpg);
+    min-height: 400px;
+}
+
+.about-img-2 {
+    background-image: url(../img/about-img-2.jpg);
+    height: 250px;
+}
+
+.about-img-3 {
+    background-image: url(../img/about-img-3.jpg);
+    height: 250px;
+}
+
+.about-img-2, .about-img-3 {
+    width: 48%;
+}

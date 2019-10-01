@@ -1,0 +1,25 @@
+.testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
+    width: 100%;
+    height: 150px;
+}
+
+.testimonios__img-1 {
+    background-image: url(../img/sujeto-1.jpg)
+}
+
+.testimonios__img-2 {
+    background-image: url(../img/sujeto-2.jpg)
+}
+
+.testimonios__img-3 {
+    background-image: url(../img/sujeto-3.jpg)
+}
+
+.sujeto__nombre, .sujeto__cargo {
+    font-weight: 700;
+}
+
+.testimonio {
+    margin-top: 30px;
+}
+

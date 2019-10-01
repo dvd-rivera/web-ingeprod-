@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INGEPROD - Ingenieria y Gestión</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item active nav__btns" href="#">Quienes Somos</a>
+                    <a class="nav-item nav__btns" href="#">Servicios</a>
+                    <a class="nav-item nav__btns" href="#">Proyectos</a>
+                    <a class="nav-item nav__btns" href="#">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="container-fluid">
+        <div class="row h-100">
+            <div id="carousel-header" class="carousel slide col-md-8 p-0" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-header" data-slide-to="1"></li>
+                    <li data-target="#carousel-header" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active header__slider"></div>
+                    <div class="carousel-item header__slider"></div>
+                    <div class="carousel-item header__slider"></div>
+                </div>
+            </div>
+            <div class="col-md-4 cotizador__container d-flex justify-content-center p-0">
+                <div class="cotizador">
+                    <div class="cotizador__header flex-column align-items-center">
+                        <h1 class="cotizador__tittle">COTIZACION INSTANTANEA</h1>
+                        <h2 class="cotizador__subtittle">Te enviaremos un archivo PDF con la cotización en menos de 5 minutos.</h2>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="cotizador__table flex-column">
+                            <div class="d-flex align-items-center">
+                                <h3 class="pregunta">¿Cual es tu nombre?</h3>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="text" class="input__nombre" required>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <h3 class="pregunta">¿Que lugar quieres remodelar?</h3>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="input-group justify-content-center">
+                                    <select class="custom-select" id="inputGroupSelect01" required>
+                                        <option selected>Selecciona el lugar</option>
+                                        <option value="1">Baño</option>
+                                        <option value="2">Cocina</option>
+                                        <option value="3">Piso</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <h3 class="pregunta">¿Cuantos m<span class="subindice">2</span> tiene la superficie a remodelar?</h3>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <input type="number" class="input__metros" required>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <h3 class="pregunta">¿A que mail enviaremos la información?</h3>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <input type="email" name="emailaddress" autocomplete="email" class="input__mail" required>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <h3 class="pregunta">¿Cual es tu numero de teléfono?</h3>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <input type="tel" required>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center pt-4 pb-4 justify-content-md-end">
+                                <button class="btn__cotizar">COTIZAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="servicios__container container">
+        <h1>SERVICIOS</h1>
+        <h2>ARQUITECTURA | REMODELACION | DEPARTAMENTOS</h2>
+        <div class="row servicios__descripciones">
+            <div class="col-md-4">
+                <h3 class="text-center">ARQUITECTURA</h3>
+                <P>Somos una empresa integral y especialista en la construcción y habilitación de espacios, enfocados en nuestros cliente y su satisfacción.</P>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">REMODELACIONES</h3>
+                <p>Contamos con nuestro collaborating partners que abordaran desde el desarrollo conceptual, hasta su materialización transformando nuestro servicio en "llave en mano". </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">DEPARTAMENTOS</h3>
+                <p>Realizamos gestiones como tasaciones (Inmobiliaria, vivienda e Industrial), Ingresos de obra y tramitación de Recepciones y certificación, Ley N°20.898 (Ley del Mono).</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container about">
+        <h1>QUIENES SOMOS</h1>
+        <div class="row about-info justify-content-between">
+            <div class="col-md-5 h-100 about-img about-img-1"></div>
+            <div class="col-md-7 d-flex justify-content-between">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="about-img about-img-2 d-none d-md-block"></div>
+                        <div class="about-img about-img-3 d-none d-md-block"></div>
+                    </div>
+                    <div class="col-12 align-items-end">
+                        <p>Lorem ipsum dolor sit amet consectetur, maiores tempore incidunt unde quisquam perspiciatis doloribus magnam nesciunt quibusdam facilis dicta fugiat aspernatur omnis eius laboriosam impedit, tenetur commodi, accusantium suscipit blanditiis distinctio quasi. Fugiat temporibus delectus, ducimus accusantium laboriosam totam repellendus minus aperiam?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos__container container">
+        <h1>PROYECTOS</h1>
+        <H2>RETAIL | OFICINA | DEPARTAMENTOS</H2>
+    </section>
+
+
+    <section class="cotizador-2 container">
+        <h1 class="cotizador__tittle">COTIZACION INSTANTANEA</h1>
+        <h2 class="cotizador__subtittle">Te enviaremos un archivo PDF con la cotización en menos de 5 minutos.</h2>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="cotizador__img bg__image"></div>
+            </div>
+            <div class="col-md-8">
+                <div class="cotizador-2">
+                    <div class="d-flex">
+                        <div class="row cotizador__table-2 d-flex">
+                            <div class="col-md-6 d-flex align-items-center">
+                                <h3 class="pregunta">¿Cual es tu nombre?</h3>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <input type="text" class="input__nombre w-100">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <h3 class="pregunta">¿Que lugar quieres remodelar?</h3>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="input-group">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>Selecciona el lugar</option>
+                                        <option value="1">Baño</option>
+                                        <option value="2">Cocina</option>
+                                        <option value="3">Piso</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <h3 class="pregunta">¿Cuantos m<span class="subindice">2</span> tiene la superficie a remodelar?</h3>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <input type="text" class="input__metros w-100">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <h3 class="pregunta">¿A que mail enviaremos la información?</h3>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <input type="email" name="emailaddress" autocomplete="email" class="input__mail w-100" required>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <h3 class="pregunta">¿Cual es tu numero de teléfono?</h3>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <input type="text" class="w-100">
+                            </div>
+                            <div class="col-12 d-flex align-items-center justify-content-center pt-2 pb-2 justify-content-md-end">
+                                <button class="btn__cotizar">COTIZAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="confiado container">
+        <h1>QUIENES HAN CONFIADO EN NOSOTROS</h1>
+        <div class="row">
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+        </div>
+    </section>
+
+
+    <section class="testimonios container">
+        <h1>TESTIMONIOS</h1>
+        <div class="row">
+            <div class="col-md-4 testimonio">
+                <div class="testimonios__img-1 bg__image"></div>
+                <div class="testimonios__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ullam. Rerum hic nobis ut eius lorem15</p>
+                </div>
+                <div class="testimonios__sujeto">
+                    <p class="sujeto__nombre text-right">Nombre</p>
+                    <p class="sujeto__cargo text-right">Cargo</p>
+                </div>
+            </div>
+            <div class="col-md-4 testimonio">
+                <div class="testimonios__img-2 bg__image"></div>
+                <div class="testimonios__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ullam. Rerum hic nobis ut eius lorem15</p>
+                </div>
+                <div class="testimonios__sujeto">
+                    <p class="sujeto__nombre text-right">Nombre</p>
+                    <p class="sujeto__cargo text-right">Cargo</p>
+
+                </div>
+            </div>
+            <div class="col-md-4 testimonio">
+                <div class="testimonios__img-3 bg__image"></div>
+                <div class="testimonios__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ullam. Rerum hic nobis ut eius lorem15</p>
+                </div>
+                <div class="testimonios__sujeto">
+                    <p class="sujeto__nombre text-right">Nombre</p>
+                    <p class="sujeto__cargo text-right">Cargo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contacto</h4>
+                    <p class="mail">contacto@ingeprod.cl</p>
+                    <p class="fono">+569 5219 8587</p>
+                    <p class="direccion">Av. Las Condes 1645</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center"><img class="logo__footer" src="assets/img/ingeprod_blanco.svg" alt="ingeprod logo"></div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center"><img class="transbank__logo" src="assets/img/logos-transbank.png" alt=""></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js js js js js js  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html>
