@@ -13,82 +13,84 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="assets/img/ingeprod-logo.svg" alt="ingeprod-logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item active nav__btns" href="#">Quienes Somos</a>
-                    <a class="nav-item nav__btns" href="#">Servicios</a>
-                    <a class="nav-item nav__btns" href="#">Proyectos</a>
-                    <a class="nav-item nav__btns" href="#">Contacto</a>
+                    <a class="nav-item active nav__btns" href="#somos">Quienes Somos</a>
+                    <a class="nav-item nav__btns" href="#servicios">Servicios</a>
+                    <a class="nav-item nav__btns" href="#proyectos">Proyectos</a>
+                    <a class="nav-item nav__btns" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
     
     <header class="container-fluid">
-        <div class="row h-100">
-            <div id="carousel-header" class="carousel slide col-md-8 p-0" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-header" data-slide-to="1"></li>
-                    <li data-target="#carousel-header" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner h-100">
-                    <div class="carousel-item active header__slider"></div>
-                    <div class="carousel-item header__slider"></div>
-                    <div class="carousel-item header__slider"></div>
-                </div>
-            </div>
-            <div class="col-md-4 cotizador__container d-flex justify-content-center p-0">
-                <div class="cotizador">
-                    <div class="cotizador__header flex-column align-items-center">
-                        <h1 class="cotizador__tittle">COTIZACION INSTANTANEA</h1>
-                        <h2 class="cotizador__subtittle">Te enviaremos un archivo PDF con la cotización en menos de 5 minutos.</h2>
+        <div class="container-90">
+            <div class="row h-100">
+                <div id="carousel-header" class="carousel slide col-md-12 col-lg-8 p-0" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-header" data-slide-to="1"></li>
+                        <li data-target="#carousel-header" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active header__slider"></div>
+                        <div class="carousel-item header__slider2"></div>
+                        <div class="carousel-item header__slider3"></div>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <div class="cotizador__table flex-column">
-                            <div class="d-flex align-items-center">
-                                <h3 class="pregunta">¿Cual es tu nombre?</h3>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <input type="text" class="input__nombre" required>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <h3 class="pregunta">¿Que lugar quieres remodelar?</h3>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="input-group justify-content-center">
-                                    <select class="custom-select" id="inputGroupSelect01" required>
-                                        <option selected>Selecciona el lugar</option>
-                                        <option value="1">Baño</option>
-                                        <option value="2">Cocina</option>
-                                        <option value="3">Piso</option>
-                                    </select>
+                </div>
+                <div class="col-md-12 col-lg-4 cotizador__container d-flex justify-content-center p-0 pt-2">
+                    <div class="cotizador">
+                        <div class="cotizador__header flex-column align-items-center">
+                            <h1 class="cotizador__tittle">COTIZACION INSTANTANEA</h1>
+                            <h2 class="cotizador__subtittle">Te enviaremos la cotización en 5 minutos.</h2>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="cotizador__table flex-column position-relative">
+                                <div class="d-flex align-items-center">
+                                    <h3 class="pregunta">¿Que lugar quieres remodelar?</h3>
                                 </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <h3 class="pregunta">¿Cuantos m<span class="subindice">2</span> tiene la superficie a remodelar?</h3>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <input type="number" class="input__metros" required>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <h3 class="pregunta">¿A que mail enviaremos la información?</h3>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <input type="email" name="emailaddress" autocomplete="email" class="input__mail" required>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <h3 class="pregunta">¿Cual es tu numero de teléfono?</h3>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <input type="tel" required>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center pt-4 pb-4 justify-content-md-end">
-                                <button class="btn__cotizar">COTIZAR</button>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="input-group justify-content-center">
+                                        <select class="custom-select" id="inputGroupSelect01" required>
+                                            <option selected>Selecciona el lugar</option>
+                                            <option value="1">Baño</option>
+                                            <option value="2">Cocina</option>
+                                            <option value="3">Piso</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <h3 class="pregunta">¿Cuantos m<span class="subindice">2</span> tiene la superficie a remodelar?</h3>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <input type="number" class="input__metros" required>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <h3 class="pregunta">¿A que mail enviaremos la información?</h3>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <input type="email" name="emailaddress" autocomplete="email" class="input__mail" required>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <h3 class="pregunta">¿Cual es tu nombre?</h3>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <input type="text" class="input__nombre" required>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <h3 class="pregunta">¿Cual es tu numero de teléfono?</h3>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <input type="tel" required>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center pt-4 pb-4 justify-content-md-end">
+                                    <button class="btn__cotizar">COTIZAR</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -98,7 +100,7 @@
     </header>
 
     <section class="servicios__container container">
-        <h1>SERVICIOS</h1>
+        <h1 id="servicios">SERVICIOS</h1>
         <h2>ARQUITECTURA | REMODELACION | DEPARTAMENTOS</h2>
         <div class="row servicios__descripciones">
             <div class="col-md-4">
@@ -117,7 +119,7 @@
     </section>
 
     <section class="container about">
-        <h1>QUIENES SOMOS</h1>
+        <h1 id="somos">QUIENES SOMOS</h1>
         <div class="row about-info justify-content-between">
             <div class="col-md-5 h-100 about-img about-img-1"></div>
             <div class="col-md-7 d-flex justify-content-between">
@@ -135,7 +137,7 @@
     </section>
 
     <section class="proyectos__container container">
-        <h1>PROYECTOS</h1>
+        <h1 id="proyectos">PROYECTOS</h1>
         <H2>RETAIL | OFICINA | DEPARTAMENTOS</H2>
     </section>
 
@@ -199,7 +201,7 @@
     </section>
 
     <section class="confiado container">
-        <h1>QUIENES HAN CONFIADO EN NOSOTROS</h1>
+        <h1 id="confiado">QUIENES HAN CONFIADO EN NOSOTROS</h1>
         <div class="row">
             <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
             <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
@@ -214,7 +216,7 @@
 
 
     <section class="testimonios container">
-        <h1>TESTIMONIOS</h1>
+        <h1 id="testimonios">TESTIMONIOS</h1>
         <div class="row">
             <div class="col-md-4 testimonio">
                 <div class="testimonios__img-1 bg__image"></div>

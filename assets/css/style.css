@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -51,6 +55,25 @@ header {
   margin-top: 56px;
 }
 
+.container-90 {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .container-90 {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (min-width: 1400px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
 footer {
   background-color: #090D3D;
   padding: 40px;
@@ -163,13 +186,25 @@ footer h4 {
   height: 94vh;
 }
 
-.header__slider {
+.header__slider, .header__slider2, .header__slider3 {
   width: 100%;
   height: 100%;
-  background-image: url(../img/header_slider_1.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header__slider {
+  background-image: url(../img/imagenes-carousel/remodelacion_oficina_abogados.png);
+  background-position: bottom;
+}
+
+.header__slider2 {
+  background-image: url(../img/imagenes-carousel/remodelacion-cocina.jpg);
+}
+
+.header__slider3 {
+  background-image: url(../img/imagenes-carousel/showroom_sym.jpg);
 }
 
 body {
@@ -188,19 +223,19 @@ body {
 .cotizador__subtittle {
   color: #1722BB;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .cotizador__table {
   background-color: #E9F5FE;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 5px 10px 10px 10px;
 }
 
 .subindice {
   vertical-align: super;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 400;
 }
 
@@ -208,14 +243,14 @@ body {
   margin: 0;
   padding: 10px;
   color: #1722BB;
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .cotizador__table input {
   width: 100%;
   height: 70%;
-  min-height: 40px;
+  min-height: 30px;
   border: none;
   text-align: center;
 }
@@ -227,18 +262,34 @@ body {
 
 .btn__cotizar {
   border: none;
-  background-color: #1722BB;
-  color: white;
-  padding: 10px 25px;
-  border-radius: 4px;
+  border-radius: 30px;
+  background-color: white;
+  color: #1722BB;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 10px 30px;
   box-shadow: 0 0 5px #779;
+  position: absolute;
+  right: 40px;
+  bottom: -25px;
+  box-shadow: 0 0 12px #999;
 }
 
 .cotizador__header {
-  width: 90%;
-  padding: 20px;
+  width: 100%;
+  padding: 10px 0 10px 0px;
 }
 
+@media (min-width: 1400px) {
+  .pregunta {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1600px) {
+  .pregunta {
+    font-size: 1.5rem;
+  }
+}
 .cotizador__table-2 {
   background-color: #E9F5FE;
   width: 100%;
