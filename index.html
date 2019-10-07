@@ -38,9 +38,15 @@
                         <li data-target="#carousel-header" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner h-100">
-                        <div class="carousel-item active header__slider"></div>
-                        <div class="carousel-item header__slider2"></div>
-                        <div class="carousel-item header__slider3"></div>
+                        <div class="carousel-item active header__slider position-relative">
+                            <h2 class="tittle__header position-absolute">RETAIL</h2>
+                        </div>
+                        <div class="carousel-item header__slider2 position-relative">
+                            <h2 class="tittle__header position-absolute">REMODELACIONES</h2>
+                        </div>
+                        <div class="carousel-item header__slider3 position-relative">
+                            <h2 class="tittle__header position-absolute">GESTIÓN INMOBILIARIA</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 cotizador__container d-flex justify-content-center p-0 pt-2">
@@ -56,7 +62,7 @@
                                 </div>
                                 <div class="d-flex align-items-center justify-content-center">
                                     <div class="input-group justify-content-center">
-                                        <select class="custom-select" id="inputGroupSelect01" required>
+                                        <select class="lugar-select" id="inputGroupSelect01" required>
                                             <option selected>Selecciona el lugar</option>
                                             <option value="1">Baño</option>
                                             <option value="2">Cocina</option>
@@ -101,18 +107,18 @@
 
     <section class="servicios__container container">
         <h1 id="servicios">SERVICIOS</h1>
-        <h2>ARQUITECTURA | REMODELACION | DEPARTAMENTOS</h2>
+        <h2>ARQUITECTURA | REMODELACION | GESTION INMOBILIARIA</h2>
         <div class="row servicios__descripciones">
             <div class="col-md-4">
                 <h3 class="text-center">ARQUITECTURA</h3>
-                <P>Somos una empresa integral y especialista en la construcción y habilitación de espacios, enfocados en nuestros cliente y su satisfacción.</P>
-            </div>
-            <div class="col-md-4">
-                <h3 class="text-center">REMODELACIONES</h3>
                 <p>Contamos con nuestro collaborating partners que abordaran desde el desarrollo conceptual, hasta su materialización transformando nuestro servicio en "llave en mano". </p>
             </div>
             <div class="col-md-4">
-                <h3 class="text-center">DEPARTAMENTOS</h3>
+                <h3 class="text-center">REMODELACIONES</h3>
+                <P>Somos una empresa integral y especialista en la construcción y habilitación de espacios, enfocados en nuestros cliente y su satisfacción.</P>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">GESTION INMOBILIARIA</h3>
                 <p>Realizamos gestiones como tasaciones (Inmobiliaria, vivienda e Industrial), Ingresos de obra y tramitación de Recepciones y certificación, Ley N°20.898 (Ley del Mono).</p>
             </div>
         </div>
@@ -128,8 +134,10 @@
                         <div class="about-img about-img-2 d-none d-md-block"></div>
                         <div class="about-img about-img-3 d-none d-md-block"></div>
                     </div>
-                    <div class="col-12 align-items-end">
-                        <p>Lorem ipsum dolor sit amet consectetur, maiores tempore incidunt unde quisquam perspiciatis doloribus magnam nesciunt quibusdam facilis dicta fugiat aspernatur omnis eius laboriosam impedit, tenetur commodi, accusantium suscipit blanditiis distinctio quasi. Fugiat temporibus delectus, ducimus accusantium laboriosam totam repellendus minus aperiam?</p>
+                    <div class="col-12 d-flex somos__text">
+                        <p>Somos un equipo de profesionales que trabajamos de manera colaborativa y permanente en busca de cumplir y satisfacer las necesidades de nuestros clientes con pasión y excelencia.</p>
+                        <p> Tenemos un staff completo de especialistas que cumplirán y harán que nuestro servicio sea mas integral.</p>
+                        <p> Nos dedicamos a todo tipo de construcción, con una visión planificada y con estrategia que abordara cada proyecto con excelencia. </p>
                     </div>
                 </div>
             </div>
@@ -138,7 +146,7 @@
 
     <section class="proyectos__container container">
         <h1 id="proyectos">PROYECTOS</h1>
-        <H2>RETAIL | OFICINA | DEPARTAMENTOS</H2>
+        <H2>RETAIL | OFICINA | DEPARTAMENTOS <a href="portafolio.html">| VER PORTAFOLIO</a></H2>
     </section>
 
 
@@ -202,15 +210,57 @@
 
     <section class="confiado container">
         <h1 id="confiado">QUIENES HAN CONFIADO EN NOSOTROS</h1>
-        <div class="row">
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
-            <div class="col-md-3 logo"><img class="img-fluid" src="assets/img/ev.png" alt="logo_engel&volquers"></div>
+        <div id="carousel-confiado" class="carousel slide mt-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/prosegur-logo.png" alt="logo_prosegur">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/savillerow.jpg" alt="logo-saville-row">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/sym.jpg" alt="logo_sym">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/casbro.png" alt="logo-casbro">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/usm.png" alt="logo_usm">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/polo_ralph_lauren.png" alt="logo_polo">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/michael-kors.png" alt="logo_michael-kors">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/logoclubhipico.png" alt="logo_club-hipico">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/garrigues.png" alt="logo_garrigues">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/chaves-awad.jpg" alt="logo_chaves-awad">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/sika.jpg" alt="logo_sika">
+                        </div>
+                        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center p-3">
+                            <img class="img-fluid" src="assets/img/logos/prosegur-logo.png" alt="logo_prosegur">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

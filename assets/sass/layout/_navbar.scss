@@ -14,3 +14,13 @@
 .nav__btns:last-child {
  border-right: none;
 }
+
+nav img {
+    width: 150px;
+}
+
+@media (min-width: 1367px) {
+    nav img {
+        width: 200px;
+    }
+}
