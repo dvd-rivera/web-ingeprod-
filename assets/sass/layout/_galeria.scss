@@ -3,3 +3,100 @@
     height: 80vh;
 }
 
+.galeria__img-1 {
+    width: 29%;
+    height: 30%;
+    background-image: url(../img/imagenes-galeria/cocina-ja.jpg);
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.galeria__img-2 {
+    width: 40%;
+    height: 48%;
+    background-image: url(../img/imagenes-galeria/remodelacion-oficina-abogados.png);
+    top: 0;
+    left: 30%;
+}
+
+.galeria__img-3 {
+    width: 29%;
+    height: 15%;
+    background-image: url(../img/imagenes-galeria/remodelacion-tienda-michael-kors.jpg);
+    top: 0;
+    right: 0;
+}
+
+.galeria__img-4 {
+    width: 29%;
+    height: 48%;
+    background-image: url(../img/imagenes-galeria/remodelacion-hall-edificio-apoquindo.jpg);
+    top: 32%;
+}
+
+.galeria__img-5 {
+    width: 29%;
+    height: 30%;
+    background-image: url(../img/imagenes-galeria/remodelacion-tienda-saville.jpg);
+    top: 18%;
+    right: 0;
+}
+
+.galeria__img-6 {
+    width: 59%;
+    height: 18%;
+    background-image: url(../img/imagenes-galeria/diseno-arquitectura.jpeg);
+    bottom: 0;
+    left: 0;
+}
+
+.galeria__img-7 {
+    width: 29%;
+    height: 30%;
+    background-image: url(../img/imagenes-galeria/remodelacion-tienda-polo-ralph.jpg);
+    bottom: 20%;
+    left: 30% ;
+}
+
+.galeria__img-8 {
+    width: 40%;
+    height: 50%;
+    background-image: url(../img/imagenes-galeria/remodelacion-showroom-sym.jpg);
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.galeria__info {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    opacity: 0;
+    transition: all ease 1s;
+
+    &:hover {
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        opacity: 1;
+        transition: all ease-in-out 1s;
+        -webkit-transition: all;
+        cursor: pointer;
+
+    }
+}
+
+.proyecto__tittle {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.proyecto__lugar {
+    color: white;
+    font-size: 1rem;
+}
