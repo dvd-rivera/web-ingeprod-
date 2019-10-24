@@ -340,6 +340,69 @@ nav img {
   text-align: center;
 }
 
+.proyectos__container {
+  margin-top: 200px;
+}
+
+.proyecto {
+  width: 100%;
+  height: 100%;
+}
+
+.portafolio__proyecto {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+.portafolio__btn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn__modal {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn__modal:hover {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.modal-dialog {
+  max-width: 100%;
+}
+
+.modal-content {
+  height: 500px;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.btn__volver {
+  padding: 2px 20px;
+  border: solid 1px #1722BB;
+  color: #1722BB;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+@media (min-width: 600px) {
+  .modal-dialog {
+    max-width: 80%;
+  }
+}
 #carousel-header {
   width: 100%;
   height: 85vh;
