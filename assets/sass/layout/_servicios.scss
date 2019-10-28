@@ -1,21 +1,15 @@
-
 .servicios__descripciones {
     margin-top: 20px;
 }
 
-.servicios__descripciones p {
-    margin-top: 10px;
+.servicios__container {
+    padding: 30px;
 }
 
-.servicios__container p{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
+@media (min-width: 576px) {
 
-@media (min-width: 1024px) {
-    .servicios__container p {
-        text-align: center;
+    .servicios__descripciones p {
+        margin-top: 10px;
     }
-}
+    
+ }

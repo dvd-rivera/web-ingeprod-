@@ -1,18 +1,46 @@
-.proyectos__container {
+.portafolio__container {
     margin-top: 200px;
-}
-
-.proyecto {
-    width: 100%;
-    height: 100%;
 }
 
 .portafolio__proyecto {
     width: 100%;
     height: 200px;
-    background-color: red;
-}
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
+    &-1 {
+        background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.png);
+    }
+
+    &-2 {
+        background-image: url(../img/portafolio/Cocina_JA/principal.jpg);
+    }
+
+    &-3 {
+        background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
+    }
+
+    &-4 {
+        background-image: url(../img/portafolio/Garrigues_Abogados/Principal.jpg);
+    }
+
+    &-5 {
+        background-image: url(../img/portafolio/Michael_Kors/Principal.jpg);
+    }
+
+    &-6 {
+        background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/Principal.jpg);
+    }
+
+    &-7 {
+        background-image: url(../img/portafolio/Prosegur_SA/Principal.jpg);
+    }
+
+    &-8 {
+        background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+    }
+}
 
 .portafolio__btn {
     width: 100%;

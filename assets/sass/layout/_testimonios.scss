@@ -1,25 +1,30 @@
 .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
     width: 100%;
-    height: 150px;
+    height: 250px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2px;
 }
 
 .testimonios__img-1 {
-    background-image: url(../img/sujeto-1.jpg)
+    background-image: url(../img/testimonios/Carolina_Varela_V.jpeg)
 }
 
 .testimonios__img-2 {
-    background-image: url(../img/sujeto-2.jpg)
+    background-image: url(../img/testimonios/Javiera_Huerta_C.jpeg)
 }
 
 .testimonios__img-3 {
-    background-image: url(../img/sujeto-3.jpg)
+    background-image: url(../img/testimonios/Juan_Antonio_Tellez.jpg)
 }
 
-.sujeto__nombre, .sujeto__cargo {
-    font-weight: 700;
+.sujeto__nombre {
+   margin-top: 40px;
+   font-weight: 700;
 }
 
-.testimonio {
+.testimonios__text {
     margin-top: 30px;
 }
 
