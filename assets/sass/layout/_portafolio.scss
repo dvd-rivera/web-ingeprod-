@@ -40,7 +40,21 @@
     &-8 {
         background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
     }
+
+    &-9 {
+        background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+    }
 }
+
+
+.detalles {
+    color: white;
+
+    &:hover {
+        color: #ffa800;
+    }
+}
+
 
 .portafolio__btn {
     width: 100%;
