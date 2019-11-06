@@ -6,10 +6,17 @@
     padding: 30px;
 }
 
+.br {
+    display: block;
+}
+
 @media (min-width: 576px) {
 
     .servicios__descripciones p {
         margin-top: 10px;
     }
     
+    .br {
+        display: none;
+    }
  }

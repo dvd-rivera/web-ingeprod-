@@ -150,9 +150,17 @@ nav img {
   padding: 30px;
 }
 
+.br {
+  display: block;
+}
+
 @media (min-width: 576px) {
   .servicios__descripciones p {
     margin-top: 10px;
+  }
+
+  .br {
+    display: none;
   }
 }
 .about-img {
@@ -208,9 +216,9 @@ nav img {
 }
 
 .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
-  width: 100%;
-  height: 250px;
-  background-position: top;
+  width: 40%;
+  height: 150px;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2px;
@@ -229,7 +237,7 @@ nav img {
 }
 
 .sujeto__nombre {
-  margin-top: 40px;
+  margin-top: 10px;
   font-weight: 700;
 }
 
@@ -237,6 +245,19 @@ nav img {
   margin-top: 30px;
 }
 
+.testimonio {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .testimonio {
+    margin-bottom: 0px;
+  }
+
+  .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
+    width: 100%;
+  }
+}
 .proyectos__container {
   margin-top: 50px;
 }
@@ -396,7 +417,16 @@ nav img {
   background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
 }
 .portafolio__proyecto-9 {
-  background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+  background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
+}
+
+.portafolio__text ul {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.portafolio__text ul li {
+  color: #1722BB;
 }
 
 .detalles {
@@ -407,11 +437,8 @@ nav img {
 }
 
 .portafolio__btn {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .btn__modal {
@@ -433,20 +460,18 @@ nav img {
   max-width: 100%;
 }
 
-.modal-content {
-  height: 500px;
-}
-
-.modal-footer {
-  border: none;
-}
-
 .btn__volver {
   padding: 2px 20px;
   border: solid 1px #1722BB;
   color: #1722BB;
   background-color: #fff;
   border-radius: 7px;
+  bottom: 20px;
+  right: 40px;
+}
+
+.portafolio__text h3 {
+  margin: 20px 0 0 0;
 }
 
 @media (min-width: 600px) {
@@ -454,21 +479,191 @@ nav img {
     max-width: 80%;
   }
 }
+@media (min-width: 992px) {
+  .portafolio__text h3 {
+    margin: 0;
+  }
+}
 .carousel__proyecto-1-1 {
   background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.png);
-  height: 100%;
 }
 .carousel__proyecto-1-2 {
   background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/IMG_2311.jpg);
-  background-size: cover;
-  height: 100%;
 }
 .carousel__proyecto-1-3 {
   background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/IMG_2309.jpg);
-  background-size: cover;
-  height: 100%;
 }
 
+.carousel__proyecto-2-1 {
+  background-image: url(../img/portafolio/Cocina_JA/DSC03304.jpg);
+}
+.carousel__proyecto-2-2 {
+  background-image: url(../img/portafolio/Cocina_JA/DSC03373.jpg);
+}
+.carousel__proyecto-2-3 {
+  background-image: url(../img/portafolio/Cocina_JA/DSC03381.jpg);
+}
+
+.carousel__proyecto-3-1 {
+  background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
+}
+.carousel__proyecto-3-2 {
+  background-image: url(../img/portafolio/Cocina_MQ/DSC06911.jpg);
+}
+.carousel__proyecto-3-3 {
+  background-image: url(../img/portafolio/Cocina_MQ/DSC06944.jpg);
+}
+
+.carousel__proyecto-4-1 {
+  background-image: url(../img/portafolio/Garrigues_Abogados/Principal.jpg);
+}
+.carousel__proyecto-4-2 {
+  background-image: url(../img/portafolio/Garrigues_Abogados/IMG_4305.jpg);
+}
+.carousel__proyecto-4-3 {
+  background-image: url(../img/portafolio/Garrigues_Abogados/IMG_4306.jpg);
+}
+
+.carousel__proyecto-5-1 {
+  background-image: url(../img/portafolio/Michael_Kors/Principal.jpg);
+}
+.carousel__proyecto-5-2 {
+  background-image: url(../img/portafolio/Michael_Kors/IMG_5717.jpg);
+}
+.carousel__proyecto-5-3 {
+  background-image: url(../img/portafolio/Michael_Kors/IMG_5718.jpg);
+}
+
+.carousel__proyecto-6-1 {
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/Principal.jpg);
+}
+.carousel__proyecto-6-2 {
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/IMG_3787.jpg);
+}
+.carousel__proyecto-6-3 {
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/IMG_3788.jpg);
+}
+
+.carousel__proyecto-7-1 {
+  background-image: url(../img/portafolio/Prosegur_SA/Principal.jpg);
+}
+.carousel__proyecto-7-2 {
+  background-image: url(../img/portafolio/Prosegur_SA/IMG_4268.jpg);
+}
+.carousel__proyecto-7-3 {
+  background-image: url(../img/portafolio/Prosegur_SA/IMG_4274.jpg);
+}
+
+.carousel__proyecto-8-1 {
+  background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+}
+.carousel__proyecto-8-2 {
+  background-image: url(../img/portafolio/Showroom_SyM/DSC03202.jpg);
+}
+.carousel__proyecto-8-3 {
+  background-image: url(../img/portafolio/Showroom_SyM/DSC03222.jpg);
+}
+
+.carousel__proyecto-9-1 {
+  background-image: url(../img/portafolio/Quincho_HL/MG1767.jpg);
+}
+.carousel__proyecto-9-2 {
+  background-image: url(../img/portafolio/Quincho_HL/MG1998v2.jpg);
+}
+.carousel__proyecto-9-3 {
+  background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
+}
+
+.portafolio__img {
+  height: 100%;
+  min-height: 200px;
+  width: 100%;
+}
+
+.fadein-1 {
+  -webkit-animation: fadein-1 12s infinite;
+  -moz-animation: fadein-1 12s infinite;
+  -ms-animation: fadein-1 12s infinite;
+  -o-animation: fadein-1 12s infinite;
+  animation: fadein-1 12s infinite;
+}
+
+.fadein-2 {
+  -webkit-animation: fadein-2 12s infinite;
+  -moz-animation: fadein-2 12s infinite;
+  -ms-animation: fadein-2 12s infinite;
+  -o-animation: fadein-2 12s infinite;
+  animation: fadein-2 12s infinite;
+}
+
+.fadein-3 {
+  -webkit-animation: fadein-3 12s infinite;
+  -moz-animation: fadein-3 12s infinite;
+  -ms-animation: fadein-3 12s infinite;
+  -o-animation: fadein-3 12s infinite;
+  animation: fadein-3 12s infinite;
+}
+
+@keyframes fadein-1 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein-2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-3 {
+  0% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media (min-width: 768px) {
+  .portafolio__img {
+    height: 100%;
+    min-height: none;
+  }
+}
 #carousel-header {
   width: 100%;
   height: 85vh;

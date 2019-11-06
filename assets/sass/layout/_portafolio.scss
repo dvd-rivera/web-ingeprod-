@@ -42,10 +42,19 @@
     }
 
     &-9 {
-        background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+        background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
     }
 }
 
+
+.portafolio__text ul {
+    padding-left: 20px ;
+    padding-top: 20px;
+}
+
+.portafolio__text ul li {
+    color: $color-principal;
+}
 
 .detalles {
     color: white;
@@ -55,13 +64,9 @@
     }
 }
 
-
 .portafolio__btn {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn__modal {
@@ -83,24 +88,32 @@
     max-width: 100%;
 }
 
-.modal-content {
-    height: 500px;
-}
-
-.modal-footer {
-    border: none;
-}
-
 .btn__volver {
     padding: 2px 20px;
     border: solid 1px $color-principal;
     color: $color-principal;
     background-color: #fff;
     border-radius: 7px;
+    bottom: 20px;
+    right: 40px;
 }
 
+.portafolio__text h3 {
+    margin: 20px 0 0 0;
+}
+
+
 @media (min-width: 600px) {
+    
     .modal-dialog {
         max-width: 80%;
     }
+}
+
+@media (min-width: 992px) {
+
+    .portafolio__text h3 {
+        margin: 0;
+    }
+
 }
