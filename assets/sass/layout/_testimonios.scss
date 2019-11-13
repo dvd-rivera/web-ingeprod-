@@ -1,10 +1,10 @@
 .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
-    width: 40%;
+    width: 150px;
     height: 150px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 2px;
+    border-radius: 75px;
 }
 
 .testimonios__img-1 {
@@ -38,6 +38,7 @@
     }
 
     .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
-        width: 100%;
+        width: 140px;
+        height: 140px;
     }
 }

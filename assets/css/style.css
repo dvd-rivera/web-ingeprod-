@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   scroll-behavior: smooth;
 }
@@ -93,7 +94,7 @@ header h1 {
 }
 footer {
   background-color: #090D3D;
-  padding: 40px;
+  padding: 20px;
 }
 
 .fono, .direccion, .mail, footer h4 {
@@ -112,6 +113,37 @@ footer h4 {
   width: 70%;
 }
 
+.contacto {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo__footer-container {
+  margin-bottom: 40px;
+}
+
+.trans__container {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .contacto {
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .footer {
+    padding: 40px;
+  }
+
+  .logo__footer-container {
+    margin-bottom: 0px;
+  }
+
+  .trans__container {
+    margin-bottom: 0px;
+  }
+}
 .nav__btns {
   font-weight: 300;
   color: #1722BB;
@@ -216,12 +248,12 @@ nav img {
 }
 
 .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
-  width: 40%;
+  width: 150px;
   height: 150px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 2px;
+  border-radius: 75px;
 }
 
 .testimonios__img-1 {
@@ -255,7 +287,8 @@ nav img {
   }
 
   .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
-    width: 100%;
+    width: 140px;
+    height: 140px;
   }
 }
 .proyectos__container {
@@ -314,7 +347,7 @@ nav img {
 .galeria__img-4 {
   width: 29%;
   height: 48%;
-  background-image: url(../img/imagenes-galeria/remodelacion-hall-edificio-apoquindo.jpg);
+  background-image: url(../img/imagenes-galeria/BañoNB.jpeg);
   top: 32%;
 }
 
@@ -381,8 +414,8 @@ nav img {
   text-align: center;
 }
 
-.portafolio__container {
-  margin-top: 200px;
+.t__margin {
+  margin-top: 120px;
 }
 
 .portafolio__proyecto {
@@ -418,6 +451,15 @@ nav img {
 }
 .portafolio__proyecto-9 {
   background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
+}
+.portafolio__proyecto-10 {
+  background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+}
+.portafolio__proyecto-11 {
+  background-image: url(../img/portafolio/Quincho-MM/quincho-3.jpeg);
+}
+.portafolio__proyecto-12 {
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4368.jpg);
 }
 
 .portafolio__text ul {
@@ -472,6 +514,11 @@ nav img {
 
 .portafolio__text h3 {
   margin: 20px 0 0 0;
+}
+
+.all__projects li {
+  color: #1722BB;
+  font-weight: 700;
 }
 
 @media (min-width: 600px) {
@@ -572,6 +619,36 @@ nav img {
 }
 .carousel__proyecto-9-3 {
   background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
+}
+
+.carousel__proyecto-10-1 {
+  background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+}
+.carousel__proyecto-10-2 {
+  background-image: url(../img/portafolio/Baño-NB/Baño-2.jpeg);
+}
+.carousel__proyecto-10-3 {
+  background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+}
+
+.carousel__proyecto-11-1 {
+  background-image: url(../img/portafolio/Quincho-MM/Quincho-1.jpeg);
+}
+.carousel__proyecto-11-2 {
+  background-image: url(../img/portafolio/Quincho-MM/Quincho-2.jpeg);
+}
+.carousel__proyecto-11-3 {
+  background-image: url(../img/portafolio/Quincho-MM/Quincho-3.jpeg);
+}
+
+.carousel__proyecto-12-1 {
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4368.jpg);
+}
+.carousel__proyecto-12-2 {
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4377.jpg);
+}
+.carousel__proyecto-12-3 {
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/Principal.jpg);
 }
 
 .portafolio__img {
@@ -683,7 +760,7 @@ nav img {
 }
 
 .header__slider2 {
-  background-image: url(../img/imagenes-carousel/remodelacion-cocina.jpg);
+  background-image: url(../img/imagenes-carousel/Principal.jpg);
 }
 
 .header__slider3 {

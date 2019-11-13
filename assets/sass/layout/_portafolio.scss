@@ -1,5 +1,5 @@
-.portafolio__container {
-    margin-top: 200px;
+.t__margin {
+    margin-top: 120px;
 }
 
 .portafolio__proyecto {
@@ -43,6 +43,18 @@
 
     &-9 {
         background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
+    }
+
+    &-10 {
+        background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+    }
+
+    &-11 {
+        background-image: url(../img/portafolio/Quincho-MM/quincho-3.jpeg);
+    }
+
+    &-12 {
+        background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4368.jpg);
     }
 }
 
@@ -102,6 +114,10 @@
     margin: 20px 0 0 0;
 }
 
+.all__projects li {
+    color: $color-principal;
+    font-weight: 700;
+}
 
 @media (min-width: 600px) {
     
