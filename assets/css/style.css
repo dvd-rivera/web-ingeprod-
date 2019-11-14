@@ -521,6 +521,10 @@ nav img {
   font-weight: 700;
 }
 
+.d-portafolio {
+  display: block;
+}
+
 @media (min-width: 600px) {
   .modal-dialog {
     max-width: 80%;
