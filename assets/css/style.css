@@ -58,6 +58,454 @@ h3 {
     margin-top: 0;
   }
 }
+@keyframes fadein-1 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein-2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-3 {
+  0% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-4 {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein-5 {
+  0% {
+    opacity: 0;
+  }
+  4% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-6 {
+  0% {
+    opacity: 0;
+  }
+  9% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  18% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-7 {
+  0% {
+    opacity: 0;
+  }
+  14% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-8 {
+  0% {
+    opacity: 0;
+  }
+  19% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-9 {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-10 {
+  0% {
+    opacity: 0;
+  }
+  29% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  38% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-11 {
+  0% {
+    opacity: 0;
+  }
+  34% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-12 {
+  0% {
+    opacity: 0;
+  }
+  39% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  44% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-13 {
+  0% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-14 {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  54% {
+    opacity: 1;
+  }
+  58% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-15 {
+  0% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  63% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-16 {
+  0% {
+    opacity: 0;
+  }
+  59% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  64% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-17 {
+  0% {
+    opacity: 0;
+  }
+  64% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  69% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-18 {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  74% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-19 {
+  0% {
+    opacity: 0;
+  }
+  74% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  83% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-20 {
+  0% {
+    opacity: 0;
+  }
+  79% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  88% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-21 {
+  0% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-22 {
+  0% {
+    opacity: 0;
+  }
+  89% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein-23 {
+  0% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 header {
   margin-top: 56px;
 }
@@ -207,12 +655,12 @@ nav img {
 }
 
 .about-img-2 {
-  background-image: url(../img/about-img-2.jpg);
+  background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
   height: 200px;
 }
 
 .about-img-3 {
-  background-image: url(../img/about-img-3.jpg);
+  background-image: url(../img/portafolio/Cocina_MQ/principal.jpg);
   height: 200px;
 }
 
@@ -331,7 +779,7 @@ nav img {
 .galeria__img-2 {
   width: 40%;
   height: 48%;
-  background-image: url(../img/imagenes-galeria/remodelacion-oficina-abogados.png);
+  background-image: url(../img/imagenes-galeria/remodelacion-oficina-abogados.jpg);
   top: 0;
   left: 30%;
 }
@@ -347,7 +795,7 @@ nav img {
 .galeria__img-4 {
   width: 29%;
   height: 48%;
-  background-image: url(../img/imagenes-galeria/BañoNB.jpeg);
+  background-image: url(../img/imagenes-galeria/BañoNB.jpg);
   top: 32%;
 }
 
@@ -362,7 +810,7 @@ nav img {
 .galeria__img-6 {
   width: 59%;
   height: 18%;
-  background-image: url(../img/imagenes-galeria/diseno-arquitectura.jpeg);
+  background-image: url(../img/imagenes-galeria/diseno-arquitectura.jpg);
   bottom: 0;
   left: 0;
 }
@@ -426,37 +874,37 @@ nav img {
   background-position: center;
 }
 .portafolio__proyecto-1 {
-  background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.png);
+  background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.jpg);
 }
 .portafolio__proyecto-2 {
   background-image: url(../img/portafolio/Cocina_JA/principal.jpg);
 }
 .portafolio__proyecto-3 {
-  background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
+  background-image: url(../img/portafolio/Cocina_MQ/principal.jpg);
 }
 .portafolio__proyecto-4 {
-  background-image: url(../img/portafolio/Garrigues_Abogados/Principal.jpg);
+  background-image: url(../img/portafolio/Garrigues_Abogados/principal.jpg);
 }
 .portafolio__proyecto-5 {
-  background-image: url(../img/portafolio/Michael_Kors/Principal.jpg);
+  background-image: url(../img/portafolio/Michael_Kors/principal.jpg);
 }
 .portafolio__proyecto-6 {
-  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/Principal.jpg);
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/principal.jpg);
 }
 .portafolio__proyecto-7 {
-  background-image: url(../img/portafolio/Prosegur_SA/Principal.jpg);
+  background-image: url(../img/portafolio/Prosegur_SA/principal.jpg);
 }
 .portafolio__proyecto-8 {
-  background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+  background-image: url(../img/portafolio/Showroom_SyM/principal.jpg);
 }
 .portafolio__proyecto-9 {
   background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
 }
 .portafolio__proyecto-10 {
-  background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+  background-image: url(../img/portafolio/bano-NB/bano-1.jpg);
 }
 .portafolio__proyecto-11 {
-  background-image: url(../img/portafolio/Quincho-MM/quincho-3.jpeg);
+  background-image: url(../img/portafolio/Quincho-MM/quincho-3.jpg);
 }
 .portafolio__proyecto-12 {
   background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4368.jpg);
@@ -536,7 +984,7 @@ nav img {
   }
 }
 .carousel__proyecto-1-1 {
-  background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.png);
+  background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.jpg);
 }
 .carousel__proyecto-1-2 {
   background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/IMG_2311.jpg);
@@ -552,11 +1000,11 @@ nav img {
   background-image: url(../img/portafolio/Cocina_JA/DSC03373.jpg);
 }
 .carousel__proyecto-2-3 {
-  background-image: url(../img/portafolio/Cocina_JA/DSC03381.jpg);
+  background-image: url(../img/portafolio/Cocina_JA/principal.jpg);
 }
 
 .carousel__proyecto-3-1 {
-  background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
+  background-image: url(../img/portafolio/Cocina_MQ/principal.jpg);
 }
 .carousel__proyecto-3-2 {
   background-image: url(../img/portafolio/Cocina_MQ/DSC06911.jpg);
@@ -566,7 +1014,7 @@ nav img {
 }
 
 .carousel__proyecto-4-1 {
-  background-image: url(../img/portafolio/Garrigues_Abogados/Principal.jpg);
+  background-image: url(../img/portafolio/Garrigues_Abogados/principal.jpg);
 }
 .carousel__proyecto-4-2 {
   background-image: url(../img/portafolio/Garrigues_Abogados/IMG_4305.jpg);
@@ -576,7 +1024,7 @@ nav img {
 }
 
 .carousel__proyecto-5-1 {
-  background-image: url(../img/portafolio/Michael_Kors/Principal.jpg);
+  background-image: url(../img/portafolio/Michael_Kors/principal.jpg);
 }
 .carousel__proyecto-5-2 {
   background-image: url(../img/portafolio/Michael_Kors/IMG_5717.jpg);
@@ -586,7 +1034,7 @@ nav img {
 }
 
 .carousel__proyecto-6-1 {
-  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/Principal.jpg);
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/principal.jpg);
 }
 .carousel__proyecto-6-2 {
   background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/IMG_3787.jpg);
@@ -596,7 +1044,7 @@ nav img {
 }
 
 .carousel__proyecto-7-1 {
-  background-image: url(../img/portafolio/Prosegur_SA/Principal.jpg);
+  background-image: url(../img/portafolio/Prosegur_SA/principal.jpg);
 }
 .carousel__proyecto-7-2 {
   background-image: url(../img/portafolio/Prosegur_SA/IMG_4268.jpg);
@@ -606,7 +1054,7 @@ nav img {
 }
 
 .carousel__proyecto-8-1 {
-  background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
+  background-image: url(../img/portafolio/Showroom_SyM/principal.jpg);
 }
 .carousel__proyecto-8-2 {
   background-image: url(../img/portafolio/Showroom_SyM/DSC03202.jpg);
@@ -626,23 +1074,23 @@ nav img {
 }
 
 .carousel__proyecto-10-1 {
-  background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+  background-image: url(../img/portafolio/bano-NB/bano-1.jpg);
 }
 .carousel__proyecto-10-2 {
-  background-image: url(../img/portafolio/Baño-NB/Baño-2.jpeg);
+  background-image: url(../img/portafolio/bano-NB/bano-2.jpg);
 }
 .carousel__proyecto-10-3 {
-  background-image: url(../img/portafolio/Baño-NB/Baño-1.jpeg);
+  background-image: url(../img/portafolio/bano-NB/bano-1.jpg);
 }
 
 .carousel__proyecto-11-1 {
-  background-image: url(../img/portafolio/Quincho-MM/Quincho-1.jpeg);
+  background-image: url(../img/portafolio/Quincho-MM/quincho-1.jpg);
 }
 .carousel__proyecto-11-2 {
-  background-image: url(../img/portafolio/Quincho-MM/Quincho-2.jpeg);
+  background-image: url(../img/portafolio/Quincho-MM/quincho-2.jpg);
 }
 .carousel__proyecto-11-3 {
-  background-image: url(../img/portafolio/Quincho-MM/Quincho-3.jpeg);
+  background-image: url(../img/portafolio/Quincho-MM/quincho-3.jpg);
 }
 
 .carousel__proyecto-12-1 {
@@ -652,7 +1100,68 @@ nav img {
   background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4377.jpg);
 }
 .carousel__proyecto-12-3 {
-  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/Principal.jpg);
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/principal.jpg);
+}
+
+.carousel__proyecto-todos-18 {
+  background-image: url(../img/portafolio/Todos/3d.jpg);
+}
+.carousel__proyecto-todos-8 {
+  background-image: url(../img/portafolio/Todos/bano-bupa.jpg);
+}
+.carousel__proyecto-todos-1 {
+  background-image: url(../img/portafolio/Todos/bano-prosegur.jpg);
+}
+.carousel__proyecto-todos-9 {
+  background-image: url(../img/portafolio/Todos/cocina-JA.jpg);
+}
+.carousel__proyecto-todos-19 {
+  background-image: url(../img/portafolio/Todos/cocina-MQ.jpg);
+}
+.carousel__proyecto-todos-17 {
+  background-image: url(../img/portafolio/Todos/cocina-PS.jpg);
+}
+.carousel__proyecto-todos-12 {
+  background-image: url(../img/portafolio/Todos/industrial.jpg);
+}
+.carousel__proyecto-todos-10 {
+  background-image: url(../img/portafolio/Todos/oficina-garrigues.jpg);
+}
+.carousel__proyecto-todos-5 {
+  background-image: url(../img/portafolio/Todos/oficina.jpg);
+}
+.carousel__proyecto-todos-16 {
+  background-image: url(../img/portafolio/Todos/quincho-hl.jpg);
+}
+.carousel__proyecto-todos-11 {
+  background-image: url(../img/portafolio/Todos/quincho-jv.jpg);
+}
+.carousel__proyecto-todos-6 {
+  background-image: url(../img/portafolio/Todos/quincho-mm.jpg);
+}
+.carousel__proyecto-todos-15 {
+  background-image: url(../img/portafolio/Todos/retail-kors.jpg);
+}
+.carousel__proyecto-todos-4 {
+  background-image: url(../img/portafolio/Todos/retail-polo.jpg);
+}
+.carousel__proyecto-todos-7 {
+  background-image: url(../img/portafolio/Todos/retail-polo-2.jpg);
+}
+.carousel__proyecto-todos-13 {
+  background-image: url(../img/portafolio/Todos/retail-saville.jpg);
+}
+.carousel__proyecto-todos-2 {
+  background-image: url(../img/portafolio/Todos/retail-saville-2.jpg);
+}
+.carousel__proyecto-todos-3 {
+  background-image: url(../img/portafolio/Todos/retail-saville-3.jpg);
+}
+.carousel__proyecto-todos-14 {
+  background-image: url(../img/portafolio/Todos/showroom-sym.jpg);
+}
+.carousel__proyecto-todos-20 {
+  background-image: url(../img/portafolio/Todos/bano-NB.jpg);
 }
 
 .portafolio__img {
@@ -685,66 +1194,184 @@ nav img {
   animation: fadein-3 12s infinite;
 }
 
-@keyframes fadein-1 {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 0;
-  }
-  87% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.fadein-4 {
+  -webkit-animation: fadein-4 60s infinite;
+  -moz-animation: fadein-4 60s infinite;
+  -ms-animation: fadein-4 60s infinite;
+  -o-animation: fadein-4 60s infinite;
+  animation: fadein-4 60s infinite;
 }
-@keyframes fadein-2 {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  33% {
-    opacity: 1;
-  }
-  53% {
-    opacity: 1;
-  }
-  66% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+
+.fadein-5 {
+  -webkit-animation: fadein-5 60s infinite;
+  -moz-animation: fadein-5 60s infinite;
+  -ms-animation: fadein-5 60s infinite;
+  -o-animation: fadein-5 60s infinite;
+  animation: fadein-5 60s infinite;
 }
-@keyframes fadein-3 {
-  0% {
-    opacity: 0;
-  }
-  53% {
-    opacity: 0;
-  }
-  66% {
-    opacity: 1;
-  }
-  87% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+
+.fadein-6 {
+  -webkit-animation: fadein-6 60s infinite;
+  -moz-animation: fadein-6 60s infinite;
+  -ms-animation: fadein-6 60s infinite;
+  -o-animation: fadein-6 60s infinite;
+  animation: fadein-6 60s infinite;
 }
+
+.fadein-7 {
+  -webkit-animation: fadein-7 60s infinite;
+  -moz-animation: fadein-7 60s infinite;
+  -ms-animation: fadein-7 60s infinite;
+  -o-animation: fadein-7 60s infinite;
+  animation: fadein-7 60s infinite;
+}
+
+.fadein-8 {
+  -webkit-animation: fadein-8 60s infinite;
+  -moz-animation: fadein-8 60s infinite;
+  -ms-animation: fadein-8 60s infinite;
+  -o-animation: fadein-8 60s infinite;
+  animation: fadein-8 60s infinite;
+}
+
+.fadein-9 {
+  -webkit-animation: fadein-9 60s infinite;
+  -moz-animation: fadein-9 60s infinite;
+  -ms-animation: fadein-9 60s infinite;
+  -o-animation: fadein-9 60s infinite;
+  animation: fadein-9 60s infinite;
+}
+
+.fadein-10 {
+  -webkit-animation: fadein-10 60s infinite;
+  -moz-animation: fadein-10 60s infinite;
+  -ms-animation: fadein-10 60s infinite;
+  -o-animation: fadein-10 60s infinite;
+  animation: fadein-10 60s infinite;
+}
+
+.fadein-11 {
+  -webkit-animation: fadein-11 60s infinite;
+  -moz-animation: fadein-11 60s infinite;
+  -ms-animation: fadein-11 60s infinite;
+  -o-animation: fadein-11 60s infinite;
+  animation: fadein-11 60s infinite;
+}
+
+.fadein-12 {
+  -webkit-animation: fadein-12 60s infinite;
+  -moz-animation: fadein-12 60s infinite;
+  -ms-animation: fadein-12 60s infinite;
+  -o-animation: fadein-12 60s infinite;
+  animation: fadein-12 60s infinite;
+}
+
+.fadein-13 {
+  -webkit-animation: fadein-13 60s infinite;
+  -moz-animation: fadein-13 60s infinite;
+  -ms-animation: fadein-13 60s infinite;
+  -o-animation: fadein-13 60s infinite;
+  animation: fadein-13 60s infinite;
+}
+
+.fadein-14 {
+  -webkit-animation: fadein-14 60s infinite;
+  -moz-animation: fadein-14 60s infinite;
+  -ms-animation: fadein-14 60s infinite;
+  -o-animation: fadein-14 60s infinite;
+  animation: fadein-14 60s infinite;
+}
+
+.fadein-15 {
+  -webkit-animation: fadein-15 60s infinite;
+  -moz-animation: fadein-15 60s infinite;
+  -ms-animation: fadein-15 60s infinite;
+  -o-animation: fadein-15 60s infinite;
+  animation: fadein-15 60s infinite;
+}
+
+.fadein-16 {
+  -webkit-animation: fadein-16 60s infinite;
+  -moz-animation: fadein-16 60s infinite;
+  -ms-animation: fadein-16 60s infinite;
+  -o-animation: fadein-16 60s infinite;
+  animation: fadein-16 60s infinite;
+}
+
+.fadein-17 {
+  -webkit-animation: fadein-17 60s infinite;
+  -moz-animation: fadein-17 60s infinite;
+  -ms-animation: fadein-17 60s infinite;
+  -o-animation: fadein-17 60s infinite;
+  animation: fadein-17 60s infinite;
+}
+
+.fadein-18 {
+  -webkit-animation: fadein-18 60s infinite;
+  -moz-animation: fadein-18 60s infinite;
+  -ms-animation: fadein-18 60s infinite;
+  -o-animation: fadein-18 60s infinite;
+  animation: fadein-18 60s infinite;
+}
+
+.fadein-19 {
+  -webkit-animation: fadein-19 60s infinite;
+  -moz-animation: fadein-19 60s infinite;
+  -ms-animation: fadein-19 60s infinite;
+  -o-animation: fadein-19 60s infinite;
+  animation: fadein-19 60s infinite;
+}
+
+.fadein-20 {
+  -webkit-animation: fadein-20 60s infinite;
+  -moz-animation: fadein-20 60s infinite;
+  -ms-animation: fadein-20 60s infinite;
+  -o-animation: fadein-20 60s infinite;
+  animation: fadein-20 60s infinite;
+}
+
+.fadein-21 {
+  -webkit-animation: fadein-21 60s infinite;
+  -moz-animation: fadein-21 60s infinite;
+  -ms-animation: fadein-21 60s infinite;
+  -o-animation: fadein-21 60s infinite;
+  animation: fadein-21 60s infinite;
+}
+
+.fadein-22 {
+  -webkit-animation: fadein-22 60s infinite;
+  -moz-animation: fadein-22 60s infinite;
+  -ms-animation: fadein-22 60s infinite;
+  -o-animation: fadein-22 60s infinite;
+  animation: fadein-22 60s infinite;
+}
+
+.fadein-23 {
+  -webkit-animation: fadein-23 60s infinite;
+  -moz-animation: fadein-23 60s infinite;
+  -ms-animation: fadein-23 60s infinite;
+  -o-animation: fadein-23 60s infinite;
+  animation: fadein-23 60s infinite;
+}
+
 @media (min-width: 768px) {
   .portafolio__img {
     height: 100%;
     min-height: none;
   }
 }
+.btn__todos {
+  border: solid 1px #1722BB;
+  padding: 20px 60px;
+  border-radius: 50px;
+  color: #1722BB;
+  background-color: white;
+  font-size: 1.3rem;
+}
+.btn__todos:hover {
+  background-color: rgba(23, 34, 187, 0.2);
+}
+
 #carousel-header {
   width: 100%;
   height: 85vh;
@@ -764,7 +1391,7 @@ nav img {
 }
 
 .header__slider2 {
-  background-image: url(../img/imagenes-carousel/Principal.jpg);
+  background-image: url(../img/imagenes-carousel/remodelacion-cocina.jpg);
 }
 
 .header__slider3 {
