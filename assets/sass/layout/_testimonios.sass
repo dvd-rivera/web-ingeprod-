@@ -1,35 +1,71 @@
-.testimonios__img-1, .testimonios__img-2, .testimonios__img-3 
-    width: 150px
-    height: 150px
-    background-position: center
-    background-size: cover
-    background-repeat: no-repeat
-    border-radius: 75px
+.section-testimonios
+    .container
+        border-top: 2px solid #ccc
+        padding: 40px 0
+
+        .testimonio-container
+            width: 80%
+            height: 100%
+            margin: 0 auto
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+    
+        .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 
+            width: 100px
+            height: 100px
+            background-position: center
+            background-size: cover
+            background-repeat: no-repeat
+            border-radius: 75px
+            +md
+                width: 120px
+                height: 120px
+                border-radius: 100px
 
 
-.testimonios__img-1 
-    background-image: url(../img/testimonios/Carolina_Varela_V.jpeg)
+        .testimonios__img-1 
+            background-image: url(../img/testimonios/Carolina_Varela_V.jpeg)
 
 
-.testimonios__img-2 
-    background-image: url(../img/testimonios/Javiera_Huerta_C.jpeg)
+        .testimonios__img-2 
+            background-image: url(../img/testimonios/Javiera_Huerta_C.jpeg)
 
 
-.testimonios__img-3 
-    background-image: url(../img/testimonios/Juan_Antonio_Tellez.jpg)
+        .testimonios__img-3 
+            background-image: url(../img/testimonios/Juan_Antonio_Tellez.jpg)
 
 
-.sujeto__nombre 
-   margin-top: 10px
-   font-weight: 700
+        .sujeto__nombre 
+            margin-top: 5px
+            font-weight: 700
+            font-size: 14px
+            +md
+                font-size: 18px
 
 
-.testimonios__text 
-    margin-top: 30px
+        .testimonios__text
+            width: 80%
+            margin-left: 20px
+            +md
+                width: 60%
 
 
-.testimonio 
-    margin-bottom: 30px
+        .testimonio
+            margin-top: 20px
+            margin-bottom: 15px
+            font-size: 12px
+            font-style: italic
+            +md
+                font-size: 14px
+                margin-top: 0
+                margin-bottom: 10px
+
+        .carousel-control-next-icon
+            background-image: url(../img/chevron-right-solid.svg)
+
+        .carousel-control-prev-icon
+            background-image: url(../img/chevron-left-solid.svg)
 
 
 @media (min-width: 768px) 
@@ -40,4 +76,4 @@
     .testimonios__img-1, .testimonios__img-2, .testimonios__img-3 
         width: 140px
         height: 140px
-    
+

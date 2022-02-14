@@ -13,13 +13,13 @@ section {
 }
 
 p {
-  color: #1722BB;
+  color: #074f5c;
   margin: 0;
 }
 
 h1, h2, h3, h4 {
   margin: 0;
-  color: #1722BB;
+  color: #074f5c;
 }
 
 h1 {
@@ -594,7 +594,7 @@ footer h4 {
 }
 .nav__btns {
   font-weight: 300;
-  color: #1722BB;
+  color: #074f5c;
   padding: 2px 10px;
 }
 
@@ -610,7 +610,7 @@ nav img {
 
 @media (min-width: 992px) {
   .nav__btns {
-    border-right: 1px solid #1722BB;
+    border-right: 1px solid #074f5c;
   }
 
   .nav__btns:last-child {
@@ -660,7 +660,7 @@ nav img {
 }
 
 .about-img-3 {
-  background-image: url(../img/portafolio/Cocina_MQ/principal.jpg);
+  background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
   height: 200px;
 }
 
@@ -695,38 +695,79 @@ nav img {
   margin-top: 40px;
 }
 
-.testimonios__img-1, .testimonios__img-2, .testimonios__img-3 {
-  width: 150px;
-  height: 150px;
+.section-testimonios .container {
+  border-top: 2px solid #ccc;
+  padding: 40px 0;
+}
+.section-testimonios .container .testimonio-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-testimonios .container .testimonios__img-1, .section-testimonios .container .testimonios__img-2, .section-testimonios .container .testimonios__img-3 {
+  width: 100px;
+  height: 100px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 75px;
 }
-
-.testimonios__img-1 {
+@media (min-width: 768px) {
+  .section-testimonios .container .testimonios__img-1, .section-testimonios .container .testimonios__img-2, .section-testimonios .container .testimonios__img-3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+  }
+}
+.section-testimonios .container .testimonios__img-1 {
   background-image: url(../img/testimonios/Carolina_Varela_V.jpeg);
 }
-
-.testimonios__img-2 {
+.section-testimonios .container .testimonios__img-2 {
   background-image: url(../img/testimonios/Javiera_Huerta_C.jpeg);
 }
-
-.testimonios__img-3 {
+.section-testimonios .container .testimonios__img-3 {
   background-image: url(../img/testimonios/Juan_Antonio_Tellez.jpg);
 }
-
-.sujeto__nombre {
-  margin-top: 10px;
+.section-testimonios .container .sujeto__nombre {
+  margin-top: 5px;
   font-weight: 700;
+  font-size: 14px;
 }
-
-.testimonios__text {
-  margin-top: 30px;
+@media (min-width: 768px) {
+  .section-testimonios .container .sujeto__nombre {
+    font-size: 18px;
+  }
 }
-
-.testimonio {
-  margin-bottom: 30px;
+.section-testimonios .container .testimonios__text {
+  width: 80%;
+  margin-left: 20px;
+}
+@media (min-width: 768px) {
+  .section-testimonios .container .testimonios__text {
+    width: 60%;
+  }
+}
+.section-testimonios .container .testimonio {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  .section-testimonios .container .testimonio {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+.section-testimonios .container .carousel-control-next-icon {
+  background-image: url(../img/chevron-right-solid.svg);
+}
+.section-testimonios .container .carousel-control-prev-icon {
+  background-image: url(../img/chevron-left-solid.svg);
 }
 
 @media (min-width: 768px) {
@@ -877,25 +918,25 @@ nav img {
   background-image: url(../img/portafolio/Chavez_Awad_Contreras_y_Schurmann_Abogados/principal.jpg);
 }
 .portafolio__proyecto-2 {
-  background-image: url(../img/portafolio/Cocina_JA/principal.jpg);
+  background-image: url(../img/portafolio/Cocina_JA/Principal.jpg);
 }
 .portafolio__proyecto-3 {
-  background-image: url(../img/portafolio/Cocina_MQ/principal.jpg);
+  background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
 }
 .portafolio__proyecto-4 {
-  background-image: url(../img/portafolio/Garrigues_Abogados/principal.jpg);
+  background-image: url(../img/portafolio/Garrigues_Abogados/Principal.jpg);
 }
 .portafolio__proyecto-5 {
-  background-image: url(../img/portafolio/Michael_Kors/principal.jpg);
+  background-image: url(../img/portafolio/Michael_Kors/Principal.jpg);
 }
 .portafolio__proyecto-6 {
-  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/principal.jpg);
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/Principal.jpg);
 }
 .portafolio__proyecto-7 {
-  background-image: url(../img/portafolio/Prosegur_SA/principal.jpg);
+  background-image: url(../img/portafolio/Prosegur_SA/Principal.jpg);
 }
 .portafolio__proyecto-8 {
-  background-image: url(../img/portafolio/Showroom_SyM/principal.jpg);
+  background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
 }
 .portafolio__proyecto-9 {
   background-image: url(../img/portafolio/Quincho_HL/MG2013v2.jpg);
@@ -907,7 +948,7 @@ nav img {
   background-image: url(../img/portafolio/Quincho-MM/quincho-3.jpg);
 }
 .portafolio__proyecto-12 {
-  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4368.jpg);
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/Principal.jpg);
 }
 
 .portafolio__text ul {
@@ -916,7 +957,7 @@ nav img {
 }
 
 .portafolio__text ul li {
-  color: #1722BB;
+  color: #074f5c;
 }
 
 .detalles {
@@ -952,8 +993,8 @@ nav img {
 
 .btn__volver {
   padding: 2px 20px;
-  border: solid 1px #1722BB;
-  color: #1722BB;
+  border: solid 1px #074f5c;
+  color: #074f5c;
   background-color: #fff;
   border-radius: 7px;
   bottom: 20px;
@@ -965,7 +1006,7 @@ nav img {
 }
 
 .all__projects li {
-  color: #1722BB;
+  color: #074f5c;
   font-weight: 700;
 }
 
@@ -997,14 +1038,14 @@ nav img {
   background-image: url(../img/portafolio/Cocina_JA/DSC03304.jpg);
 }
 .carousel__proyecto-2-2 {
-  background-image: url(../img/portafolio/Cocina_JA/DSC03373.jpg);
+  background-image: url(../img/portafolio/Cocina_JA/DSC03381.jpg);
 }
 .carousel__proyecto-2-3 {
-  background-image: url(../img/portafolio/Cocina_JA/principal.jpg);
+  background-image: url(../img/portafolio/Cocina_JA/Principal.jpg);
 }
 
 .carousel__proyecto-3-1 {
-  background-image: url(../img/portafolio/Cocina_MQ/principal.jpg);
+  background-image: url(../img/portafolio/Cocina_MQ/Principal.jpg);
 }
 .carousel__proyecto-3-2 {
   background-image: url(../img/portafolio/Cocina_MQ/DSC06911.jpg);
@@ -1014,7 +1055,7 @@ nav img {
 }
 
 .carousel__proyecto-4-1 {
-  background-image: url(../img/portafolio/Garrigues_Abogados/principal.jpg);
+  background-image: url(../img/portafolio/Garrigues_Abogados/Principal.jpg);
 }
 .carousel__proyecto-4-2 {
   background-image: url(../img/portafolio/Garrigues_Abogados/IMG_4305.jpg);
@@ -1024,7 +1065,7 @@ nav img {
 }
 
 .carousel__proyecto-5-1 {
-  background-image: url(../img/portafolio/Michael_Kors/principal.jpg);
+  background-image: url(../img/portafolio/Michael_Kors/Principal.jpg);
 }
 .carousel__proyecto-5-2 {
   background-image: url(../img/portafolio/Michael_Kors/IMG_5717.jpg);
@@ -1034,7 +1075,7 @@ nav img {
 }
 
 .carousel__proyecto-6-1 {
-  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/principal.jpg);
+  background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/Principal.jpg);
 }
 .carousel__proyecto-6-2 {
   background-image: url(../img/portafolio/Polo_Ralph_Lauren_Casa_Costanera/IMG_3787.jpg);
@@ -1044,7 +1085,7 @@ nav img {
 }
 
 .carousel__proyecto-7-1 {
-  background-image: url(../img/portafolio/Prosegur_SA/principal.jpg);
+  background-image: url(../img/portafolio/Prosegur_SA/Principal.jpg);
 }
 .carousel__proyecto-7-2 {
   background-image: url(../img/portafolio/Prosegur_SA/IMG_4268.jpg);
@@ -1054,7 +1095,7 @@ nav img {
 }
 
 .carousel__proyecto-8-1 {
-  background-image: url(../img/portafolio/Showroom_SyM/principal.jpg);
+  background-image: url(../img/portafolio/Showroom_SyM/Principal.jpg);
 }
 .carousel__proyecto-8-2 {
   background-image: url(../img/portafolio/Showroom_SyM/DSC03202.jpg);
@@ -1100,7 +1141,7 @@ nav img {
   background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/IMG-4377.jpg);
 }
 .carousel__proyecto-12-3 {
-  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/principal.jpg);
+  background-image: url(../img/portafolio/Saville-Row-Mall-Vivo-Imperio/Principal.jpg);
 }
 
 .carousel__proyecto-todos-18 {
@@ -1360,16 +1401,63 @@ nav img {
     min-height: none;
   }
 }
+.estadisticas__fondo {
+  width: 100%;
+  background-image: url(../img/edificio.jpg);
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  min-height: 400px;
+}
+.estadisticas__fondo .estadisticas__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
+.estadisticas__fondo .estadisticas__container .estadistica__container {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .estadisticas__fondo .estadisticas__container .estadistica__container {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .estadisticas__fondo .estadisticas__container .estadistica__container {
+    width: 25%;
+  }
+}
+.estadisticas__fondo .estadisticas__container .estadistica__container p.estadistica {
+  font-size: 40px;
+  font-weight: 700;
+}
+.estadisticas__fondo .estadisticas__container .estadistica__container p.estadistica, .estadisticas__fondo .estadisticas__container .estadistica__container p.bajada__estadistica {
+  color: white;
+}
+.estadisticas__fondo .estadisticas__container .estadistica__container:not(:first-child) {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .estadisticas__fondo .estadisticas__container .estadistica__container:not(:first-child) {
+    margin-top: 0;
+  }
+}
+
 .btn__todos {
-  border: solid 1px #1722BB;
+  border: solid 1px #074f5c;
   padding: 20px 60px;
   border-radius: 50px;
-  color: #1722BB;
+  color: #074f5c;
   background-color: white;
   font-size: 1.3rem;
 }
 .btn__todos:hover {
-  background-color: rgba(23, 34, 187, 0.2);
+  background-color: rgba(7, 79, 92, 0.2);
 }
 
 #carousel-header {
@@ -1413,7 +1501,7 @@ body {
 }
 
 .cotizador__tittle {
-  color: #1722BB;
+  color: #074f5c;
   font-weight: 700;
 }
 
@@ -1449,7 +1537,7 @@ body {
   min-height: 30px;
   border: none;
   padding-left: 20px;
-  color: #1722BB;
+  color: #074f5c;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -1457,7 +1545,7 @@ body {
 .cotizador__table select {
   border: none;
   height: 30px;
-  color: rgba(23, 34, 187, 0.2);
+  color: rgba(7, 79, 92, 0.2);
   font-weight: 700;
   padding-left: 20px;
   background-color: #fff;

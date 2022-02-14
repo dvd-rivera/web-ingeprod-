@@ -1,0 +1,36 @@
+.estadisticas__fondo
+    width: 100%
+    background-image: url(../img/edificio.jpg)
+    background-size: cover
+    background-position: top center
+    display: flex
+    align-items: center
+    padding: 40px
+    min-height: 400px
+
+    .estadisticas__container
+        width: 100%
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        color: white
+
+        .estadistica__container
+            width: 100%
+            text-align: center
+            +md
+                width: 50%
+            +lg
+                width: 25%
+
+            p.estadistica
+                font-size: 40px
+                font-weight: 700
+
+            p.estadistica, p.bajada__estadistica
+                color: white
+
+        .estadistica__container:not(:first-child)
+            margin-top: 20px
+            +md
+                margin-top: 0
